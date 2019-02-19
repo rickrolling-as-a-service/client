@@ -1,5 +1,5 @@
 {
-  "name": "@rickrollingaas/client",
+  "name": "raas-api",
   "version": "0.0.1",
   "description": "Our Node.js API client.",
   "scripts": {
@@ -8,11 +8,9 @@
   },
   "main": "index.js",
   "author": "Felix Mattick",
-  "license": "UNLICENSED",
-  "private": false,
+  "license": "MIT",
   "devDependencies": {
-    "ava": "^1.2.1",
-    "np": "^4.0.2"
+    "ava": "^1.2.1"
   },
   "dependencies": {
     "node-fetch": "^2.3.0"
