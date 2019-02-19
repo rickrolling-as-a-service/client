@@ -8,7 +8,7 @@
   },
   "main": "index.js",
   "author": "Felix Mattick",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "devDependencies": {
     "ava": "^1.2.1"
   },
