@@ -1,6 +1,6 @@
 {
   "name": "raas-api",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Our Node.js API client.",
   "scripts": {
     "test": "ava",
