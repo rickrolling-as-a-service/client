@@ -19,5 +19,15 @@
   },
   "dependencies": {
     "node-fetch": "^2.3.0"
-  }
+  },
+  "keywords": [
+    "rickroll",
+    "rickrolling",
+    "raas",
+    "as-a-service",
+    "meme",
+    "api",
+    "client",
+    "prank"
+  ]
 }
