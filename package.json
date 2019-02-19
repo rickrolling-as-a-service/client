@@ -1,7 +1,7 @@
 {
-  "name": "@raas/client",
+  "name": "@rickrollingaas/client",
   "version": "0.0.1",
-  "description": "Our node API client.",
+  "description": "Our Node.js API client.",
   "scripts": {
     "test": "ava",
     "ship": "np"
