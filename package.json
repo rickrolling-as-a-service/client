@@ -9,6 +9,10 @@
   "main": "index.js",
   "author": "Felix Mattick",
   "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rickrolling-as-a-service/client.git"
+  },
   "devDependencies": {
     "ava": "^1.2.1",
     "np": "^4.0.2"
