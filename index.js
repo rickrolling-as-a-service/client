@@ -142,7 +142,7 @@ module.exports.deployments.view = (code) => {
       if (json.error) {
         throw new Error(json.error)
       }
-      resolve(json)
+      resolve(json.views)
     }).catch((error) => {
       reject(error)
     })
