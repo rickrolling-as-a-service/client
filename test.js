@@ -19,11 +19,12 @@ test('can create, get, view, and delete deployment', async (test) => {
   test.is(deploymentInfo.memeIndex, 0)
   test.is(deploymentInfo.views, 0)
 
-  await raas.deployments.view(deployment.code)
+  const views = await raas.deployments.view(deployment.code)
   const deploymentInfoAgain = await raas.deployments.getInfo(deployment.code)
+  test.is(deploymentInfoAgain.views, views)
   test.is(deploymentInfoAgain.views, 1)
 
-  const { finalViews } = await raas.deployments.delete(deployment.code)
+  const finalViews = await raas.deployments.delete(deployment.code)
   test.is(finalViews, 1)
 
   await test.throwsAsync(async () => {
