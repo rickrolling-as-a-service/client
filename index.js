@@ -166,7 +166,7 @@ module.exports.deployments.delete = (code) => {
       if (json.error) {
         throw new Error(json.error)
       }
-      resolve(json)
+      resolve(json.finalViews)
     }).catch((error) => {
       reject(error)
     })
